@@ -4,8 +4,8 @@ body{
 }
 
 .box1{
-  padding-top: 5%;
-  padding-bottom:1.5%;
+  padding-top: 15%;
+  padding-bottom:5%;
   padding-left: 0;
   padding-right: 0;
   margin-top:-1.2%;
@@ -91,4 +91,3 @@ body{
       100%  {color: #bababa;}
     }
 }
-
