@@ -88,3 +88,10 @@ a.nounderscore{
       100%  {color: #bababa;}
     }
 }
+a.linkintext{
+  
+}
+a.linkintext:hover{
+color: #093ec4;
+
+}
