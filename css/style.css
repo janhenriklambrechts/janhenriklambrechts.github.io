@@ -1,4 +1,4 @@
-body{
+body.homepage{
   background-color: #fcfdff;
   font-size: 100%;
   max-width: auto;
@@ -8,6 +8,18 @@ body{
   overflow-x: hidden;
 }
 }
+
+body.quote{
+  background-color: #2975d8;
+  font-size: 100%;
+  max-width: auto;
+  max-height: 100% !important;
+  margin: 0 auto !important;
+  float: none !important;
+  overflow-x: hidden;
+}
+}
+
 
 .box1{
   padding-top: 10%;
@@ -41,6 +53,13 @@ body{
   font-size: 1.85em;
   font-weight: 600;
   color: #bababa;
+  text-align: justify;
+}
+.text-quote{
+  font-family: 'Open Sans';
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fcfdff;
   text-align: justify;
 }
 a.nounderscore{
@@ -89,7 +108,7 @@ a.nounderscore{
     }
 }
 a.linkintext{
-  
+
 }
 a.linkintext:hover{
 color: #093ec4;
