@@ -9,16 +9,6 @@ body.homepage{
 }
 }
 
-body.quote{
-  background-color: #2975d8;
-  font-size: 100%;
-  max-width: auto;
-  max-height: 100% !important;
-  margin: 0 auto !important;
-  float: none !important;
-  overflow-x: hidden;
-}
-}
 
 
 .box1{
@@ -113,4 +103,14 @@ a.linkintext{
 a.linkintext:hover{
 color: #093ec4;
 
+}
+body.quote{
+  background-color: #2975d8;
+  font-size: 100%;
+  max-width: auto;
+  max-height: 100% !important;
+  margin: 0 auto !important;
+  float: none !important;
+  overflow-x: hidden;
+}
 }
