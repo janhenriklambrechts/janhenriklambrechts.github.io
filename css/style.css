@@ -67,7 +67,16 @@ a.nounderscore{
   padding-left:1%;
   padding-right:1%;
 }
+.socialicons2{
+  color:#fcfdff;
+  font-size:1.8em;
+  padding-left:1%;
+  padding-right:1%;
+}
 .socialicons:hover{
+  color:#093ec4;
+}
+.socialicons2:hover{
   color:#093ec4;
 }
 
