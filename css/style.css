@@ -1,25 +1,31 @@
-body.homepage{
-  background-color: #fcfdff;
+body{
   font-size: 100%;
   max-width: auto;
   max-height: 100% !important;
-  margin: 0 auto !important;
-  float: none !important;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 }
+.bgcolorhome{
+  background-color: #fcfdff;
+}
+.bgcolorquote{
+  background-color: #2975d8;
+}
 
-
+.changesite{
+  padding-top: 5%;
+}
 
 .box1{
-  padding-top: 10%;
+  padding-top: 2%;
   padding-bottom:5%;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5%;
+  padding-right: 5%;
   margin-top:0;
 }
 .padthebox{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 .box2{
   margin-top: 5%;
@@ -103,14 +109,4 @@ a.linkintext{
 a.linkintext:hover{
 color: #093ec4;
 
-}
-body.quote{
-  background-color: #2975d8;
-  font-size: 100%;
-  max-width: auto;
-  max-height: 100% !important;
-  margin: 0 auto !important;
-  float: none !important;
-  overflow-x: hidden;
-}
 }
