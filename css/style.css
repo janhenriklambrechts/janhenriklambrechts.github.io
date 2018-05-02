@@ -93,10 +93,10 @@ a.nounderscore{
 }
 
 .changeovertime{
-  animation: colorchange 4s; /* animation-name followed by duration in seconds*/
+  /*animation: colorchange 4s; /* animation-name followed by duration in seconds*/
          /* you could also use milliseconds (ms) or something like 2.5s */
-      -webkit-animation: colorchange 4s; /* Chrome and Safari */
-    }
+    /*  -webkit-animation: colorchange 4s; /* Chrome and Safari */
+    /*}
 
     @keyframes colorchange
     {
@@ -106,11 +106,11 @@ a.nounderscore{
     }
 
     @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
-    {
+    /*{
       0%   {color:#fcfdff ;}
       50%  {color:#fcfdff ;}
       100%  {color: #bababa;}
-    }
+    }*/
 }
 a.linkintext{
 
