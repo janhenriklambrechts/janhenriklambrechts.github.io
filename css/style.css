@@ -3,7 +3,6 @@ body{
   max-width: auto;
   max-height: 100% !important;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 }
 .bgcolorhome{
@@ -77,7 +76,7 @@ a.nounderscore{
   color:#093ec4;
 }
 .socialicons2:hover{
-  color:#093ec4;
+  color: #bababa;
 }
 
 #spacingcontainer{
@@ -113,9 +112,94 @@ a.nounderscore{
     }*/
 }
 a.linkintext{
-
+ color: #bababa;
 }
 a.linkintext:hover{
-color: #093ec4;
+color: #9c9c9c;
 
 }
+.iconstate{
+    display: inline;
+}
+.iconstate:hover{
+    display: none;
+}
+
+
+
+#emojiid-code{
+    display: none;
+}
+
+#iconid-code:hover + #emojiid-code{display: inline;}
+
+#emojiid-learn{
+    display: none;
+}
+
+#iconid-learn:hover + #emojiid-learn{display: inline;}
+
+#emojiid-people{
+    display: none;
+}
+
+#iconid-people:hover + #emojiid-people{display: inline;}
+
+#emojiid-coffee{
+    display: none;
+}
+
+#iconid-coffee:hover + #emojiid-coffee{display: inline;}
+
+#emojiid-article{
+    display: none;
+}
+
+#iconid-article:hover + #emojiid-article{display: inline;}
+
+.topic:hover{
+    display: none;
+}
+
+
+#mlandcv-q{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+  font-weight: 300;
+}
+
+#mlandcv-t{
+    font-size: .9 em;
+  font-weight: 400;
+}
+#phil-t{
+    font-size: .9 em;
+  font-weight: 400;
+}
+#prod-t{
+    font-size: .9 em;
+  font-weight: 400;
+}
+
+#mlandcv-t:hover + #mlandcv-q{display: inline;}
+
+#phil-q{
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+  font-weight: 300;
+}
+#phil-t:hover + #phil-q{display: inline;}
+
+#prod-q{
+   display: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7em;
+  font-weight: 300;
+}
+#prod-t:hover + #prod-q{display: inline;}
+
+
+
+
