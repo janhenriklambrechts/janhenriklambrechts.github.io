@@ -83,11 +83,14 @@ a.nounderscore{
   padding-bottom: 5%;
 }
 
+.inlinetextdarkgrey{
+    color:#8f8f8f;
+}
 .inlinetextblue{
   color:#2975d8;
 }
 .iconintext{
-  color: #bababa;
+  color: #2975d8;
   font-size: 1em;
 }
 
@@ -164,39 +167,36 @@ color: #9c9c9c;
 
 #mlandcv-q{
     display: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: .7em;
-  font-weight: 300;
+    font-size: 1em;
+  font-weight: 400;
 }
 
 #mlandcv-t{
-    font-size: .9 em;
-  font-weight: 400;
+    font-size:  1em;
+  font-weight: 500;
 }
 #phil-t{
-    font-size: .9 em;
-  font-weight: 400;
+    font-size: 1 em;
+  font-weight: 500;
 }
 #prod-t{
-    font-size: .9 em;
-  font-weight: 400;
+    font-size: 1 em;
+  font-weight: 500;
 }
 
 #mlandcv-t:hover + #mlandcv-q{display: inline;}
 
 #phil-q{
     display: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: .7em;
-  font-weight: 300;
+    font-size: 1em;
+  font-weight: 400;
 }
 #phil-t:hover + #phil-q{display: inline;}
 
 #prod-q{
    display: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: .7em;
-  font-weight: 300;
+    font-size: 1em;
+  font-weight: 400;
 }
 #prod-t:hover + #prod-q{display: inline;}
 
