@@ -170,7 +170,11 @@ color: #9c9c9c;
     font-size: 1em;
   font-weight: 400;
 }
+#mlandcv-q:hover{
+    display: inline;
+}
 
+#mlandcv-q:hover + #mlandcv-q{display: none;}
 #mlandcv-t{
     font-size:  1em;
   font-weight: 500;
